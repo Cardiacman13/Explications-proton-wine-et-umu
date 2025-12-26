@@ -51,7 +51,7 @@ Sous Linux, DirectX (technologie Microsoft) n'existe pas nativement. Pour obteni
 Valve et la communauté proposent plusieurs branches pour répondre à tous les besoins.
 
 ### Les versions officielles (Valve)
-* **Proton Stable** (ex: 9.0-4) : Version figée et testée en profondeur. C'est le choix de la sécurité.
+* **Proton Stable** (ex: 10.0-3) : Version figée et testée en profondeur. C'est le choix de la sécurité.
 * **Proton Next** : La future version stable en avant-première, pour tester les régressions.
 * **Proton Experimental** : Le laboratoire. Contient les dernières fonctionnalités et correctifs non encore stabilisés. Idéal pour les jeux très récents.
 * **Proton Hotfix** : Version d'urgence temporaire déployée pour corriger un bug critique sur un jeu populaire spécifique.
@@ -73,6 +73,7 @@ C'est l'assurance "anti-casse". Valve fournit un ensemble de bibliothèques fig�
 C'est le dossier qui simule le disque `C:\` de Windows.
 * Il contient une base de registre simulée et l'arborescence de fichiers.
 * **Bonne pratique :** Chaque jeu possède idéalement son propre WINEPREFIX pour éviter qu'un jeu ne casse la configuration d'un autre.
+* Vous pouvez voir les préfix de vos jeux dans `~/.steam/steam/steamapps/compatdata/[ID_DU_JEU]/pfx`
 
 ---
 
@@ -81,7 +82,7 @@ C'est le dossier qui simule le disque `C:\` de Windows.
 1.  **Isolation :** Création d'un conteneur `pressure-vessel` (environnement stable).
 2.  **Initialisation :** Préparation du `WINEPREFIX` (le faux Windows).
 3.  **Traduction Système :** Wine/Proton interceptent les appels CPU.
-4.  **Traduction Graphique :** DXVK/VKD3D convertissent les graphismes en Vulkan.
+4.  **Traduction Graphique :** DXVK/proton-VKD3D convertissent DX en Vulkan.
 5.  **Optimisation :** Application des patchs spécifiques au jeu.
 
 ---
@@ -89,9 +90,9 @@ C'est le dossier qui simule le disque `C:\` de Windows.
 ## 🌋 UMU Launcher : L'unification hors Steam
 
 ### Qu'est-ce que UMU ?
-**UMU-launcher** (Unified Linux Wine Game Launcher) est un projet révolutionnaire qui permet d'utiliser la technologie Proton et les Runtimes de Valve **sans lancer le client Steam**.
+**UMU-launcher** (Unified Linux Wine Game Launcher) est un projet qui permet d'utiliser la technologie Proton et les Runtimes de Valve **sans lancer le client Steam**. En 2023, lors de l’Ubuntu Summit, Glorious Eggroll (créateur de Proton-GE), des développeurs de Lutris et Heroic Game Launcher ont discuté avec un employé de Valve, Érik, qui leur a présenté la documentation autour de pressure-vessel. Séduits par l’idée, ils ont lancé le projet UMU pour exploiter cette technologie en dehors de Steam.
 
-C'est le chaînon manquant pour les launchers tiers comme **Lutris**, **Heroic Games Launcher** ou **Bottles**.
+C'est le chaînon manquant pour les launchers tiers comme **Lutris** ou **Heroic Games Launcher**.
 
 > **💡 Le saviez-vous ?**
 > "Umu" désigne un four traditionnel polynésien chauffé par des pierres volcaniques.
