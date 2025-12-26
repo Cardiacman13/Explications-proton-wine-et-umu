@@ -17,7 +17,7 @@ Avant de plonger dans la technique, voici quelques concepts clés à maîtriser 
 > Technologie de conteneurisation développée par Valve. Elle crée une "bulle" isolée regroupant tout le nécessaire (bibliothèques graphiques, dépendances) pour que les jeux tournent de manière fiable.
 >
 > **⚙️ Steam Runtime Tools / Steam Linux Runtime (SLR)**
-> Ensemble d'outils et de bibliothèques fournis par Steam. Ils garantissent que les jeux s'exécutent dans un environnement standardisé, peu importe votre distribution Linux (Arch, Ubuntu, Fedora, etc.).
+> Ensemble d'outils et de bibliothèques fournis par Steam (dont par exemple pressure-vessel). Ils garantissent que les jeux s'exécutent dans un environnement standardisé, peu importe votre distribution Linux (Arch, Ubuntu, Fedora, etc.).
 
 ---
 
