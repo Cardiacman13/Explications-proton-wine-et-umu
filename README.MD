@@ -1,4 +1,4 @@
-# 🍷 Wine, Proton et UMU : Le Guide du Gaming sur Linux
+# 🍷 Wine, Proton et UMU : Comprendre Le Gaming sur Linux
 
 Ces dernières années, l'écosystème Linux a fait des pas de géant pour permettre l'exécution des applications et jeux Windows. Si les projets **Wine** et **Proton** sont devenus des piliers incontournables, de nouvelles solutions émergent pour s'affranchir du client Steam, notamment le projet **UMU Launcher**.
 
