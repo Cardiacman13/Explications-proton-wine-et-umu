@@ -90,16 +90,16 @@ C'est le dossier qui simule le disque `C:\` de Windows.
 ## 🌋 UMU Launcher : L'unification hors Steam
 
 ### Qu'est-ce que UMU ?
-**UMU-launcher** (Unified Linux Wine Game Launcher) est un projet qui permet d'utiliser la technologie Proton et les Runtimes de Valve **sans lancer le client Steam**. En 2023, lors de l’Ubuntu Summit, Glorious Eggroll (créateur de Proton-GE), des développeurs de Lutris et Heroic Game Launcher ont discuté avec un employé de Valve, Érik, qui leur a présenté la documentation autour de pressure-vessel. Séduits par l’idée, ils ont lancé le projet UMU pour exploiter cette technologie en dehors de Steam.
+**UMU-launcher** (Unified Linux Wine Game Launcher) est un projet qui permet d'utiliser la technologie Proton et les Runtimes de Valve **sans lancer le client Steam** ainsi que de mettre en commun [une base de donnée de patchs](https://umu.openwinecomponents.org/). En 2023, lors de l’Ubuntu Summit, Glorious Eggroll (créateur de Proton-GE), des développeurs de Lutris et Heroic Game Launcher ont discuté avec un employé de Valve, Érik, qui leur a présenté la documentation autour de pressure-vessel. Séduits par l’idée, ils ont lancé le projet UMU pour exploiter cette technologie en dehors de Steam.
 
 C'est le chaînon manquant pour les launchers tiers comme **Lutris** ou **Heroic Games Launcher**.
 
-> **💡 Le saviez-vous ?**
 > "Umu" désigne un four traditionnel polynésien chauffé par des pierres volcaniques.
 > L'analogie est parfaite : l'Umu est la "plaque de cuisson" sur laquelle on pose le `pressure-vessel` (récipient sous pression) de Valve pour "cuisiner" (exécuter) les jeux.
 
 ### Pourquoi UMU est important ?
 Avant UMU, lancer un jeu Epic ou GOG avec Proton pouvait être instable car on perdait l'environnement conteneurisé de Steam (`pressure-vessel`).
+Avant chaques applications poussaient leurs patch de leur coté maintenant le travail est mis en commun ici : https://umu.openwinecomponents.org/
 
 **Les avantages d'UMU :**
 * ✅ **Indépendance :** Plus besoin de lancer Steam en arrière-plan.
