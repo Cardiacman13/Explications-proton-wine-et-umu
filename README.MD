@@ -58,7 +58,7 @@ Valve et la communauté proposent plusieurs branches pour répondre à tous les 
 * **Proton Bleeding Edge** : Branche de développement brute mise à jour en continu. Très instable, à réserver aux développeurs/testeurs aguerris.
 
 ### Les versions communautaires
-* **Proton-cachyos* : C'est la version "Custom" ou il a le plus de travail actuellement.
+* **Proton-cachyos** : C'est la version "Custom" ou il a le plus de travail actuellement.
     * **Pourquoi l'utiliser ?** Valve, en tant qu'entreprise, ne peut pas inclure certains codecs propriétaires (licences) ou des patchs non officiels. proton-cachyos intègre ces codecs (nécessaires pour certaines cinématiques) et des correctifs rapides issus de Wine-Staging.
     * **Réactivité :** LoathingKernel (le lead dev de proton-cachyos) réagit souvent plus vite que Valve pour des correctifs spécifiques ou des jeux non Steam (ex: un patch pour Battle.net ou EA app qui casse), là où Valve doit suivre un processus de validation strict (QA) voire sen fiche parce que le jeu / launcher n'est pas sur Steam.
 
